@@ -1,0 +1,42 @@
+
+ h1{
+     color:rgb(162, 190, 33);
+     animation-name:b;
+     animation-duration: 8s;
+     background-color: black;
+    }
+ /*body{background-image: linear-gradient(to right,green,yellow)}*/
+ body{
+     animation-name: a;
+     animation-duration: 6s ;
+     background-color: chocolate;
+
+ }
+ a:visited{color:black}
+ @keyframes a{
+    from{background-color: chocolate;}
+    to{background-color:bisque}
+    
+}
+@keyframes b{
+    from{background-color: white;}
+    to{background-color: black;}
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left:45%;
+    margin-top: 10%;
+}
+p{font-size: 25px ;
+    background-color: bisque;
+    padding-left: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+
+
+
